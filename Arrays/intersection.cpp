@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<8;i++){
         for(int j=0;j<2;j++){
             if(arr[i] == brr[j]){
-                brr[j] = -1;
+                brr[j] = INT_MIN;
                 ans.push_back(arr[i]);
             }
         }
