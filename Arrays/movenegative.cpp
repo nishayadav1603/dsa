@@ -13,18 +13,30 @@ int main(){
     int s = 0;
     int e = size-1;
     while(s <= e){
-        if(arr[s] < 0 && arr[e] < 0){
+        // if(arr[s] < 0 && arr[e] < 0){
+        //     s++;
+        // }
+        // else if(arr[s] > 0 && arr[e] < 0){
+        //     swap(arr[s],arr[e]);
+        //     s++;
+        //     e--;
+        // }
+        // else if(arr[s] > 0 && arr[e] > 0){
+        //     e--;
+        // }
+        // else{
+        //     s++;
+        //     e--;
+        // }
+
+        if(arr[s] < 0){
             s++;
         }
-        else if(arr[s] > 0 && arr[e] < 0){
-            swap(arr[s],arr[e]);
-            s++;
-            e--;
-        }
-        else if(arr[s] > 0 && arr[e] > 0){
+        else if(arr[e] > 0){
             e--;
         }
         else{
+            swap(arr[s],arr[e]);
             s++;
             e--;
         }
