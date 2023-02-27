@@ -31,6 +31,8 @@ long long int maxsawbladeheight(vector<long long int>trees,long long int m){
 } 
 
 int main(){
+    // 4 7
+    // 20 15 10 17
     long long int n,m;
     cin >> n >> m;
     vector<long long int>trees;
