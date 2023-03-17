@@ -43,7 +43,7 @@ int main(){
     int n;
     cin >> n;
     //cout << decimaltobinaryMethod1(n) << endl;
-    cout << decimaltobinaryMethod2(n) << endl;
-    //cout << binarytodecimal(n) << endl;
+    //cout << decimaltobinaryMethod2(n) << endl;
+    cout << binarytodecimal(n) << endl;
 
 }
